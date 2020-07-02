@@ -97,4 +97,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias gitgo="git add . && git commit -m 'Automatically committed by GitGo: `date +"%Y-%m-%d %T"`' && git push"
+alias ll="ls -laF"
+alias gitgo="sh ~/gitgo.sh"
